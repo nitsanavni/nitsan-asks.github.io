@@ -4,12 +4,18 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+As the name implies I love asking questions.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+### Things I've been asking about lately
+- Ensemble Programming
+- Coaching Development Teams
+- Street Epistemology (and Beliefs in general)
+- Taking Smart Notes
+- Financial Independence
+- Refactoring Software
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+I'd love to hear from you! And would be happy to connect.
+
+[nitsanav@gmail.com](mailto:nitsanav@gmail.com)
