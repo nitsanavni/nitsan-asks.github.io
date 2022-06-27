@@ -6,7 +6,7 @@ permalink: /about/
 
 As the name implies I love asking questions.
 
-### Things I've been asking about lately
+### Things I've been curious about lately
 - Ensemble Programming
 - Coaching Development Teams
 - Street Epistemology (and Beliefs in general)
