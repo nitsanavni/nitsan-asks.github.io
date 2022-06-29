@@ -65,6 +65,8 @@ test("configure", (t) => {
 });
 ```
 
+# with Rx
+
 For our Rx example, we'll be replacing `onBaz: Action<string>` with a `rxjs.Subject<string>`.
 
 ```ts
