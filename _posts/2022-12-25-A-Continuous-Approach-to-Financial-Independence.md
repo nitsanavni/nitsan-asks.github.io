@@ -95,7 +95,7 @@ Here's one equation that satisfies the above: `W=1-S/FI`, where `W` is the propo
 
 Assuming Bob starts off with `SR=50%` and `S=0`, and he can control `W` to a decimal precision, we get:
 
-![](</images/<W(t)%20continuous%20no%20slope.png>>)
+![](</images/W(t)%20continuous%20no%20slope.png>)
 
 Oops, looks like Bob has many decades of calculations before him.
 Let's iterate on this a bit more.
@@ -106,13 +106,13 @@ While in theory it's plausible that Bob could control W to a decimal precision, 
 
 Now the graph looks like this:
 
-![](</images/<W(t)%20quantization%20by%20days-per-week.png>>)
+![](</images/W(t)%20quantization%20by%20days-per-week.png>)
 
 And Bob sees some light at the end of a 33 year work tunnel. (Note that it's approximately twice the time it would take him the MMM way - 17 years)
 
 Maybe, instead of days-per-week, Bob reduces W by taking mini-retirements, 6 months every year (50%). This now gives the following picture:
 
-![](</images/<W(t)%20quantization%20by%20half.png>>)
+![](</images/W(t)%20quantization%20by%20half.png>)
 
 Comparing to the MMM graph we clearly see a trade-off: Bob could go half-time 7 years before the MMM way, and fully retire 8 years after it.
 
