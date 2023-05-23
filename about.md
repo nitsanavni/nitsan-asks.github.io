@@ -17,5 +17,3 @@ As the name implies I love asking questions.
 ### Contact me
 
 I'd love to hear from you! And would be happy to connect.
-
-[nitsanav@gmail.com](mailto:nitsanav@gmail.com)
