@@ -163,14 +163,14 @@ Introduce a function `condition`:
 
 ```diff
 @@ -1,6 +1,8 @@
- def fizz: { d: 3, c: "Fizz" };
- def buzz: { d: 5, c: "Buzz" };
+  def fizz: { d: 3, c: "Fizz" };
+  def buzz: { d: 5, c: "Buzz" };
 
-+def condition(d): . == d;
++ def condition(d): . == d;
 +
- def fizzbuzz:
-   if . == fizz.d then fizz.c
-   elif . == buzz.d then buzz.c
+  def fizzbuzz:
+    if . == fizz.d then fizz.c
+    elif . == buzz.d then buzz.c
 ```
 
 Use it:
@@ -189,14 +189,14 @@ Now, make the easy change:
 
 ```diff
 @@ -1,7 +1,7 @@
- def fizz: { d: 3, c: "Fizz" };
- def buzz: { d: 5, c: "Buzz" };
+  def fizz: { d: 3, c: "Fizz" };
+  def buzz: { d: 5, c: "Buzz" };
 
--def condition(d): . == d;
-+def condition(d): . % d == 0;
+- def condition(d): . == d;
++ def condition(d): . % d == 0;
 
- def fizzbuzz:
-   if condition(fizz.d) then fizz.c
+  def fizzbuzz:
+    if condition(fizz.d) then fizz.c
 ```
 
 Our approval test fails and highlights a good diff:
