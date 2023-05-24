@@ -257,15 +257,7 @@ Notice:
 -   Getting from Green to Orange is done via a new failing test (`O t`)
 -   Getting back to Green is done using the "easy change" (`G F`)
 
-<div class="mermaid">
-graph TB
-  O("Orange") -- "r, r, r, F" --> G("Green")
-  G -- "r, r, r, t" --> O
-  style O fill:#FFA500,stroke:#A60
-  style G fill:#80D080,stroke:#080
-  linkStyle 0 stroke:#0,stroke-width:1.5px;
-  linkStyle 1 stroke:#0,stroke-width:1.5px;
-</div>
+![](/images/Orange-Green-Refactor.png)
 
 ## Conclusion
 
