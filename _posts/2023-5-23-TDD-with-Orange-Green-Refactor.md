@@ -39,10 +39,10 @@ I now have a failing test, and the approval testing framework shows me this diff
 
 ```diff
 @@ -3,3 +3,4 @@
- Fizz
- 4
- Buzz
-+6
+  Fizz
+  4
+  Buzz
++ 6
 ```
 
 Seeing this new `6` makes me think:
@@ -52,14 +52,14 @@ Seeing this new `6` makes me think:
 
 ```diff
 @@ -2,7 +2,7 @@ def fizz: {d:3,c:"Fizz"};
- def buzz: {d:5,c:"Buzz"};
+  def buzz: {d:5,c:"Buzz"};
 
- def fizzbuzz:
--  if . == fizz.d then fizz.c
-+  if . % fizz.d == 0 then fizz.c
-   elif . == buzz.d then buzz.c
-   else .
-   end;
+  def fizzbuzz:
+-   if . == fizz.d then fizz.c
++   if . % fizz.d == 0 then fizz.c
+    elif . == buzz.d then buzz.c
+    else .
+    end;
 ```
 
 And as I started typing, I thought:
@@ -148,10 +148,10 @@ First we temporarily approve the incorrect result of `6` (should be `Fizz`):
 
 ```diff
 @@ -3,3 +3,4 @@
- Fizz
- 4
- Buzz
-+6
+  Fizz
+  4
+  Buzz
++ 6
 ```
 
 We're now in _Orange_.  
@@ -177,12 +177,12 @@ Use it:
 
 ```diff
 @@ -4,5 +6,5 @@
- def fizzbuzz:
--  if . == fizz.d then fizz.c
-+  if condition(fizz.d) then fizz.c
-   elif . == buzz.d then buzz.c
-   else .
-   end;
+  def fizzbuzz:
+-   if . == fizz.d then fizz.c
++   if condition(fizz.d) then fizz.c
+    elif . == buzz.d then buzz.c
+    else .
+    end;
 ```
 
 Now, make the easy change:
@@ -203,11 +203,11 @@ Our approval test fails and highlights a good diff:
 
 ```diff
 @@ -3,4 +3,4 @@
- Fizz
- 4
- Buzz
--6
-+Fizz
+  Fizz
+  4
+  Buzz
+- 6
++ Fizz
 ```
 
 We approve this, and we're back to _Green_.
@@ -216,15 +216,15 @@ And now we can **refactor generally**, for example extract another method `isMul
 
 ```diff
 @@ -1,7 +1,8 @@
- def fizz: { d: 3, c: "Fizz" };
- def buzz: { d: 5, c: "Buzz" };
+  def fizz: { d: 3, c: "Fizz" };
+  def buzz: { d: 5, c: "Buzz" };
 
--def condition(d): . % d == 0;
-+def isMultiple(d): . % d == 0;
-+def condition(d): isMultiple(d);
+- def condition(d): . % d == 0;
++ def isMultiple(d): . % d == 0;
++ def condition(d): isMultiple(d);
 
- def fizzbuzz:
-   if condition(fizz.d) then fizz.c
+  def fizzbuzz:
+    if condition(fizz.d) then fizz.c
 ```
 
 ## r, r, r, F
@@ -256,6 +256,16 @@ Notice:
 -   `O r` - these are Preparatory Refactorings
 -   Getting from Green to Orange is done via a new failing test (`O t`)
 -   Getting back to Green is done using the "easy change" (`G F`)
+
+<div class="mermaid">
+graph TB
+  O("Orange") -- "r, r, r, F" --> G("Green")
+  G -- "r, r, r, t" --> O
+  style O fill:#FFA500,stroke:#A60
+  style G fill:#80D080,stroke:#080
+  linkStyle 0 stroke:#0,stroke-width:1.5px;
+  linkStyle 1 stroke:#0,stroke-width:1.5px;
+</div>
 
 ## Conclusion
 
