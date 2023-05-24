@@ -257,7 +257,7 @@ Notice:
 -   Getting from Green to Orange is done via a new failing test (`O t`)
 -   Getting back to Green is done using the "easy change" (`G F`)
 
-![](/images/Orange-Green-Refactor.png)
+![](/images/r-r-r-t-r-r-r-F.png)
 
 ## Conclusion
 
