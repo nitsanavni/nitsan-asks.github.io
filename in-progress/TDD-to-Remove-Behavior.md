@@ -5,9 +5,9 @@ title: Removing Behavior with TDD
 
 What does it look like to roll back existing behavior with TDD? 🤔
 
-Usually TDD has an additive direction to it where behavior is being added to the code in small increments. That true for product development in general too.
+Usually TDD has an additive direction to it where behavior is being added to the code in small increments. This is true for product development in general too.
 
-A more subtle case is when behavior needs **changing**, not simply being added. Still the changes are done in small steps of transformations.
+A more subtle case is when behavior needs **changing**, not simply being added. Still, the changes are done in small steps of transformations.
 
 How about pure removal of behavior? I've never practiced that with TDD.
 
@@ -33,8 +33,8 @@ Our challenge is therefore this:
 
 There are a few pretty strong assumptions made here:
 
-1. Code is well covered with tests, as mentioned above - not an easy thing to even define, let alone achieve
-2. Tests are clearly focused on single pieces of behavior - iow it's easy to see which test should be made to fail
+1. As mentioned above we assume the code is well covered with tests - not an easy thing to even define, let alone achieve
+2. Tests are clearly focused on single pieces of behavior - iow it's easy to see which test will fail as a result of removing the behavior
 3. The to-be-removed behavior is well located in the code, as opposed to being spread all over it - iow the behavior can simply be removed
 
 ## Make the Removal Easy
@@ -56,9 +56,9 @@ Revised plan:
 
 ## Prepare for Preparing
 
-First make the existing test fail.
-
 When dealing with preparatory refactorings, let's use the [Orange state of TDD](https://nitsanavni.github.io/TDD-with-Orange-Green-Refactor/). Meaning, start with a single failing test (Orange), and refactor under its driving force.
+
+So - first make the existing test fail.
 
 New plan:
 
@@ -86,7 +86,18 @@ Looking at a few [katas](https://sammancoaching.org/kata_descriptions/), here ar
 
 ## Add a Failing Test First
 
-We're relying on a preexisting test focused exactly on what is to be removed. That's not a realistic assumption to make in general. Instead we can _add_ this test, thus having more control on the resulting behavior. Another benefit is the preservation of the test suite exactly as it was before to guard us while refactoring and changing the code. That might mean we'll have two (or more) tests that are _in conflict_ - there can only be one! (passing, eventually). This also makes it clear that at least one of them is temporary, maybe both are.
+We're relying on a preexisting test focused exactly on what is to be removed. That's not a realistic assumption to make in general. Instead we can _add_ this test, thus having more control on the resulting behavior. Another benefit is the preservation of the test suite exactly as it was before to guard us while refactoring and changing the code.
+
+That might mean we'll have two (or more) tests that are _in conflict_ - there can only be one! (passing, eventually). Usually when practicing TDD, after making the test pass the others are still passing too - the Green state. But in this scenario, making the new test pass will probably make another fail. This also makes it clear that at least one of them is temporary. Maybe both are.
+
+New plan!
+
+1. _Add_ a temporary failing test about the anticipated absence of the behavior -> Orange
+2. Preparatory Refactoring
+3. Remove the behavior, making the new test pass and hopefully making other test(s) fail -> Red(?)
+4. Review test failures and adapt them to new behavior -> Green
+5. Remove the temporary test
+6. General Refactoring
 
 ## Example
 
@@ -97,3 +108,7 @@ Can the absence of something be approved? Should it? How would that look like?
 ## Example
 
 ## Why Remove the Tests too?
+
+## How Deep Should we Remove?
+
+## Using Feature Toggles
