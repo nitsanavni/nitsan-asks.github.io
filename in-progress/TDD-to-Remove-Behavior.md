@@ -72,6 +72,28 @@ New plan:
 
 Can the absence of something be tested for? 🤔
 
+Looking at a few [katas](https://sammancoaching.org/kata_descriptions/), here are some behaviors we could practice removing.
+
+| Kata            | Remove Behavior                         | Test Absence |
+| --------------- | --------------------------------------- | ------------ |
+| Bank account    | a column from the statement             |              |
+| CalcStats       | `max`                                   |              |
+| Closest to Zero | rule: letters in the most similar order |              |
+| Filename Range  | knowing about test suffixes             |              |
+| Fizzbuzz        | `Buzz`                                  |              |
+| Fizzbuzz        | requirement to concatenate              |              |
+| Fizzbuzz        | the function `fizzbuzz`                 |              |
+
 ## Add a Failing Test First
 
-## Approval Tests Challenge
+We're relying on a preexisting test focused exactly on what is to be removed. That's not a realistic assumption to make in general. Instead we can _add_ this test, thus having more control on the resulting behavior. Another benefit is the preservation of the test suite exactly as it was before to guard us while refactoring and changing the code. That might mean we'll have two (or more) tests that are _in conflict_ - there can only be one! (passing, eventually). This also makes it clear that at least one of them is temporary, maybe both are.
+
+## Example
+
+## Approval Tests - How to Approve Absence?
+
+Can the absence of something be approved? Should it? How would that look like?
+
+## Example
+
+## Why Remove the Tests too?
