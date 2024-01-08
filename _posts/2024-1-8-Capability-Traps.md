@@ -64,7 +64,7 @@ Cons:
 
 The team is in a deeper trap. It's better to just continue doing it manually.
 
-# Example - Establish a Learning Practise
+# Example - Establish a Learning Practice
 
 Going even more meta.  
 In the previous scenario we assume that the team has some mechanism in place for *learning new things*.
