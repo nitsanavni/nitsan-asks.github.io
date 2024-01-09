@@ -32,9 +32,9 @@ Cons:
 
 The team decides it cannot afford to invest in automation, trapping itself in an ever increasing effort of carrying out the task manually in an attempt to meet performance expectations.
 
-# Delayed Performance Gain
+# Delayed Improved Capabilities
 
-In many instances of capability traps there's a delay between the investment in building better capabilities and the actual performance gain.
+In many instances of capability traps there's a delay between the investment in building better capabilities and the actual gains.
 
 This delay is more pronounced for some kinds of capabilities, for example capabilities that require learning.
 
