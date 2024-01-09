@@ -13,12 +13,6 @@ Usually it involves a recurring decision to spend time directly performing in pl
 
 > "We can't spend time _improving_ because we need to focus on the work itself."
 
-A very simplified causal loop might be:  
-> Work Required -> (+) Work -> (-) Work Required
-
-In words:
-The team is required to do work. The team reacts by working, which reduces the amount of required work.
-
 # Example - Automate a Repetitive Task
 
 Scenario: The team runs a manual regression test suite before each release. Some of this manual work could be automated.  
