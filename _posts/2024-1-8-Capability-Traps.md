@@ -11,6 +11,8 @@ A Capability Trap is a causal loop that decentivizes us from increasing our capa
 
 Usually it involves a recurring decision to spend time directly performing in place of improving capabilities, balancing the loop by "working harder/more".
 
+> "We can't spend time _improving_ because we need to focus on the work itself."
+
 A very simplified causal loop might be:  
 > Work Required -> (+) Work -> (-) Work Required
 
