@@ -3,6 +3,8 @@ layout: post
 title: Capability Traps
 ---
 
+> "We can't spend time _improving_ because we need to focus on the work itself."
+
 For a deeper read I recommend [Repenning, N. P., & Sterman, J. D. (2001). Nobody ever gets credit for fixing problems that never happened: Creating and sustaining process improvement](https://web.mit.edu/nelsonr/www/CMR_Getting_Quality_v1.0.html).
 
 I'm not sure, but here's how I understand Capability Traps.
@@ -10,8 +12,6 @@ I'm not sure, but here's how I understand Capability Traps.
 A Capability Trap is a causal loop that decentivizes us from increasing our capability, thus "trapping" us in a capability status quo.
 
 Usually it involves a recurring decision to spend time directly performing in place of improving capabilities, balancing the loop by "working harder/more".
-
-> "We can't spend time _improving_ because we need to focus on the work itself."
 
 # Example - Automate a Repetitive Task
 
