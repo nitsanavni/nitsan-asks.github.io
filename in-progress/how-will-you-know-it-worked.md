@@ -2,9 +2,9 @@
 
 You have a task, or a goal, or simply - you have work to do. How will you know it worked?
 
-Let's say a team takes on a task to fix a known bug.
+Let's say a team takes on a task to fix a known bug. How will the team know it worked? Meaning they have successfully fixed the bug. Should the team even consider this question?
 
-How will they know it worked?
+In Software Development it seems that tasks and goals have clear, even boolean, success conditions. You either fixed the bug, or you didn't.
 
 Feedback.
 
