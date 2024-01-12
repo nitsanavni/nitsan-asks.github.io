@@ -2,9 +2,13 @@
 
 > "The right tool makes the job easy, son." - My dad, Shlomo Avni
 
+I had been joining my dad for the odd job around the house, and this phrase would come up again and again.
+
 > "Use your tools!" - Emily Bache
 
 These both stuck with me since I heard them.
+
+
 
 I've been fortunate to work with Emily and to hear her tell this to us developers many a time. And she's right. Using tools and becoming proficient at it offloads effort, freeing up resources for better things. And yes, many tools have been tuned for a narrow use case, and are just 'perfect' for the job.
 
@@ -24,13 +28,21 @@ Using a tool is a skill in and of itself, we have to _learn_ it.
 
 # GPT
 
-Large Language Models are much like brains.
+Large Language Models (LLMs) are much like brains.
 
 - Context / focus
 - Short term memory
 - Knowledge with far from perfect retrieval capabilities
 - They're slow, when compared to other software
 - Can learn
+
+LLM's primary tool, you might say, is word generation. It is the main mechanism by which they interact with the world.
+
+Word generation on its own, goes a long way, but we get to experience its limits very often.
+
+# Example: '1283645 * 1763520931313 = ?'
+
+A simple math problem. However, simply generating words is obviously not the way to go here. LLMs are not endowed with built-in calculators, they're just neural nets.
 
 Using tools my Dad always used to say "with the right tool, the job is easy"
 From the second image:
