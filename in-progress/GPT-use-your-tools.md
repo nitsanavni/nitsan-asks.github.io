@@ -1,8 +1,19 @@
-My friend and mentor Emily Bache tells us developers "Use your tools!".
+# GPT, Use your Tools!
 
-GPT use your tools
-"Use your tools!" - Emily Bache
-I had the pleasure of working with Emily and she has this wonderful saying for us devs: "use it whenever there is a missed opportunity with a gentle reminder..."
+> "The right tool makes the job easy, son." - My dad, Shlomo Avni
+
+> "Use your tools!" - Emily Bache
+
+These both stuck with me since I heard them.
+
+I've been fortunate to work with Emily and to hear her tell this to us developers many a time. And she's right. Using tools and becoming proficient at it offloads effort, freeing up resources for better things. And yes, many tools have been tuned for a narrow use case, and are just 'perfect' for the job.
+
+# Knowhow Loss
+
+Some examples 
+
+
+
 Using tools my Dad always used to say "with the right tool, the job is easy"
 From the second image:
 
