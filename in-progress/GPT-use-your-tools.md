@@ -44,8 +44,8 @@ Word generation on its own, goes a long way, but we get to experience its limits
 
 A simple math problem. However, simply generating words is obviously not the way to go here. LLMs are not endowed with built-in calculators, they're just neural nets.
 
-Using tools my Dad always used to say "with the right tool, the job is easy"
-From the second image:
+See one experiment with ChatGPT [here](https://chat.openai.com/share/d8ff445b-99cf-4589-a871-66db2a9156ee).
+
 
 Good tools are
 reliable, predictable
