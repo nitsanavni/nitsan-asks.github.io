@@ -12,15 +12,25 @@ I've been fortunate to work with Emily and to hear her tell this to us developer
 
 Some tools might worry you.
 
-"If I rely on this tool now
+"If I rely on this tool, I will lose the knowhow and skill required to get the job done without it."
+
+A valid concern. We become dependent on our tools.
+
+An examle that comes to mind is navigation. 
 
 # Learning is Required
 
 Using a tool is a skill in and of itself, we have to _learn_ it.
 
-Some examples 
+# GPT
 
+Large Language Models are much like brains.
 
+- Context / focus
+- Short term memory
+- Knowledge with far from perfect retrieval capabilities
+- They're slow, when compared to other software
+- Can learn
 
 Using tools my Dad always used to say "with the right tool, the job is easy"
 From the second image:
@@ -37,3 +47,5 @@ generative
 makes things up
 perceptive
 I found (and many others) that some practices are useful for better cognitive performance.
+
+# How to Provide Tools to GPT?
