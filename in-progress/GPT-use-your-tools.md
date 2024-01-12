@@ -10,6 +10,14 @@ I've been fortunate to work with Emily and to hear her tell this to us developer
 
 # Knowhow Loss
 
+Some tools might worry you.
+
+"If I rely on this tool now
+
+# Learning is Required
+
+Using a tool is a skill in and of itself, we have to _learn_ it.
+
 Some examples 
 
 
