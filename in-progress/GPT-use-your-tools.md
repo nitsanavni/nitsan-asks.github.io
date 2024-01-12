@@ -1,10 +1,10 @@
 # GPT, Use your Tools!
 
-> "The right tool makes the job easy, son." - My dad, Shlomo Avni
+> "The right tool makes the job easy, son." -My dad, Shlomo Avni
 
 I had been joining my dad for the odd job around the house (not as much as I'd like anymore), and this phrase comes up again and again.
 
-> "Use your tools!" - Emily Bache
+> "Use your tools!" -Emily Bache
 
 These both stuck with me since I heard them.
 
